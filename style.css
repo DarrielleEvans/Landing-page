@@ -1,5 +1,7 @@
 body{
     background: black;
+    display:flex;
+    flex-direction: column;
 }
 
 .header{
@@ -26,8 +28,9 @@ body{
     display: flex;
     justify-content: space-around;
     
+    
 }
-.text{
+.slogan{
     display: flex;
     flex-wrap: wrap;
     font-size: 50px;
@@ -35,12 +38,45 @@ body{
 
 }
 img{
-    width: 400px;
-    height:300px;
+    width: 250px;
+    height: auto;
+    
 }
 a{
     text-decoration: none;
     color:white;
     font-size: 20px;
+}
+
+.container{
+    background:#f05022;
+    height:400px;
     
+    
+}
+.MVP{
+    text-align: center;
+    font-size: 40px;
+}
+.allsauce{
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+.review{
+    height: 200px;
+    background: red;
+    padding: 30px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+}
+.footer{
+    background: white;
+    color: black;
+    text-align: center;
+    padding: 10px;
 }
