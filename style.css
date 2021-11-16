@@ -5,78 +5,144 @@ body{
 }
 
 .header{
-    background: red;
+    background: black;
     display: flex;
     justify-content: space-between;
     height: 50px;
     color:white;   
     padding:10px 5px;
 }
-
-.title{
-    font-size: 40px;
+.logo{
+    width: 100px;
+    height: auto;
 }
 .links{
     list-style-type: none;
     display: flex;
     gap: 15px;
-    
+    font-size: 18px;  
 }
 .body{
     background: white;
     height: 300px;
     display: flex;
     justify-content: space-around;
-    
+    padding: 15px;
+}
+button.order{
+    border-radius:8px;
+    background:#ed512e;
+    border:1px solid #ddd;
+    color:white;
+    width: 75px;
+    height:25px;
+    font-weight: bold;
+}
+.wings{
+    max-height: auto;
+    max-width: 350px;
+    border: 20px black;
     
 }
 .slogan{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    font-size: 50px;
+    font-size: 48px;
+    font-weight: 800;
     width: 450px;
-
-}
-img{
-    width: 250px;
-    height: auto;
-    
+    align-items: space-around;
 }
 a{
     text-decoration: none;
     color:white;
-    font-size: 20px;
 }
-
 .container{
-    background:#f05022;
-    height:400px;
-    
-    
+    background:#f47d20;
+    height:400px; 
 }
 .MVP{
     text-align: center;
-    font-size: 40px;
+    font-size: 36px;
+    font-weight: 800;
+    padding: 20px;
 }
 .allsauce{
     display:flex;
-    justify-content: space-evenly;
-    
+    justify-content: center;
+    gap: 15px;
+    border-color: white;
+    border: medium;  
 }
-.review{
-    height: 200px;
-    background: red;
-    padding: 30px 15px;
+.sauce{
+    height: auto;
+    width:300px;
+    border-radius: 15px; 
+}
+.reviewsection{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 300px;
+    background:#ed512e;
     flex-wrap: wrap;
-    font-size: 30px;
-    text-align: center;
+    padding: 60px 120px;  
+}
+.review{
+    display: flex;
+    flex-direction: column;
+    font:black;
+    font-size:36px;
+    font-style: italic;
+    height: 200px;
+    width: 750px;
+}
+.name{
+    align-self: flex-end;
+    font-size: 25px;
+    font-weight: bolder;   
+}
+.call{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 300px;
+    padding: 15px 5px;
+
+}
+.action{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    background: black;
+    border-radius: 15px;
+    width:800px;
+    height:200px;
+    color: white;
+    margin: 10px;
+}
+
+.text1{
+    font: white;
+    font-size:24px;
+    font-weight: bold;
+}
+.text2{
+    font-size:20px;
+}
+button.Apply{
+    border-radius:8px;
+    background:#ed512e;
+    border:1px solid #ddd;
+    color:white;
+    width: 75px;
+    height:25px;
+    font-weight: bold;
 }
 .footer{
-    background: white;
-    color: black;
+    background: black;
+    color: white;
     text-align: center;
     padding: 10px;
 }
